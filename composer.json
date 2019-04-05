@@ -1,0 +1,80 @@
+{
+    "name": "mozgbrasil/php-framework-php_72",
+    "description": "Mozg API",
+    "version": "dev-master",
+    "type": "library",
+    "keywords": ["cerebrum", "mozg", "magento", "magento2", "framework", "ubuntu", "php", "mysql"],
+    "homepage": "http://mozg.com.br",
+    "time": "2019-04-05 01:37:18",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Marcio dos Santos Amorim",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/php-framework-php_72/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/php-framework-php_72",
+        "docs": "https://github.com/mozgbrasil/php-framework-php_72/wiki",
+        "rss": "http://mozg.com.br/sitemap.xml"
+    },
+    "require" : {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-hash": "*",
+        "ext-iconv": "*",
+        "ext-intl": "*",
+        "ext-gd": "*",
+        "ext-openssl": "*",
+        "ext-pdo" : "*",
+        "ext-spl": "*",
+        "ext-simplexml": "*",
+        "ext-soap": "*",
+        "ext-sockets" : "*",
+        "lib-libxml": "*",
+        "zendframework/zend-barcode": ">=2.5.1",
+        "zendframework/zend-debug": ">=2.5.1",
+        "zendframework/zend-escaper": ">=2.5.1",
+        "zendframework/zend-log": ">=2.5.1",
+        "zendframework/zend-config": ">=2.5.1",
+        "symfony/var-dumper": ">=2.8.31",
+        "guzzlehttp/guzzle": ">=5.3.1",
+        "sebastian/diff": ">=1.4.3",
+        "sunra/dbug": ">=0.2.1",
+        "jenssegers/agent": ">=2.6.0",
+        "tecnickcom/tcpdf": ">=6.2.13",
+        "league/csv": ">=7.2.0 <=8.2.2",
+        "stichoza/google-translate-php": ">=3.1.2",
+        "doctrine/collections": ">=1.3.0",
+        "jms/serializer": ">=1.1.0",
+        "reisraff/accentuation": ">=2.0.2",
+        "moneyphp/money": ">=1.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "*",
+        "pdepend/pdepend": "*",
+        "sjparkinson/static-review": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "lusitanian/oauth": "*"
+    },
+    "suggest": {
+        "phpunit/phpunit": "The PHP Unit Testing framework."
+    },
+    "autoload": {
+        "psr-4": {
+            "Mozg\\Framework\\": "src/"
+        }
+    }
+}
